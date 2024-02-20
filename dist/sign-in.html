@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in form</title>
+    <link rel="shortcut icon" href="./../assets/images/title-icon-netflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class=" bg-black md:bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg')]  w-[100%] bg-cover bg-no-repeat bg-center ">
+           <div class="bg-[rgba(0,0,0,.4)] w-[100%] h-[100%] flex flex-col ">
+                <div class="flex flex-col gap-0 md:gap-16 justify-between">
+                    <div class="border-b-2 border-gray-300 md:border-none">
+                        <header class="max-w-[100vw] flex sm:m-[0_50px] m-[0_30px] justify-between py-6 flex-wrap">
+                            <div class="">
+                                <img class="w-[148px]" src="./../assets/images/netflix-logos-idcIWizlPG.png" alt="">
+                            </div>
+                        </header>
+
+                        <div class="w-[100%] flex justify-center ">
+                            <div class="bg-[rgba(0,0,0,.8)] w-[100%]  md:w-[40%] lg:w-[33%] xl:w-[28%] p-16 pb-10 rounded-sm ">
+                                <div class="text-white flex flex-col gap-6">
+                                    <h1 class="text-3xl font-semibold">Sign In</h1>
+                                    <form class="w-[100%]">
+                                        <div class="flex flex-col gap-4">
+                                            <input class="w-[100%] bg-[#454141] rounded-md  p-[10px_15px]" type="email" placeholder="Email or phone number">
+                                            <input class="w-[100%] bg-[#454141] rounded-md  p-[10px_15px]" type="password" placeholder="password">
+                                        </div>
+                                        <div class="flex flex-col pt-12 gap-2 ">
+                                            <button type="submit" class="bg-[#e50914] rounded-md p-[10px_15px]">Sign In</button>
+                                            <div class="flex justify-between">
+                                                <div class="text-[#b3b3b3] text-xs flex items-center"><input type="checkbox" name="" id="">Remember me</div>
+                                                <p class="text-[#b3b3b3] text-xs">Need help?</p>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <div class="flex flex-col gap-3 mt-[5%]">
+                                        <h1 class="text-base text-[#737373]">New to Netflix? <span class="text-white"><a href="./../index.html">Sign up now.</a></span></h1>
+                                        <p class="text-xs text-[#737373]">Sign in is protected by Google reCAPTCHA to ensure you’re not a bot.</p>
+                                        <p class="text-xs text-[#737373]">The information collected by Google reCAPTCHA is subject to the Google 
+                                            <a href="./privacy.html" class="text-blue-600 hover:underline">Privacy Policy</a> and <a href="./terms-of use.html" class="text-blue-600 hover:underline">Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="w-[100%] bg-[rgba(0,0,0,.7)] flex">
+                            <div class="w-[62%] m-auto flex flex-col gap-6 mt-10 mb-12">
+                                <div class="text-[#737373] text-sm">Questions? Call 000-800-919-1694</div>
+                                <div class="w-[100%] text-[#737373] text-xs">
+                                    <ul class="flex flex-wrap ">
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">FAQ</a></li>
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">Help Centre</a></li>
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">Terms of Use</a></li>
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">Privacy</a></li>
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">Cookie Preferences</a></li>
+                                        <li class="hover:underline w-[50%] sm:w-[33.33%] md:w-[25%] p-4"><a href="#">Corporate Information</a></li>
+                                    </ul>
+                                </div>
+                                <div class="flex gap-3 items-center relative ">
+                                    <div class="absolute pl-2 text-white"><i class="fa-solid fa-globe"></i></div>                                
+                                    <select name="" id="" class=" w-28 bg-[rgba(0,0,0,.7)] py-[3px] pr-[6px] pl-[22px]  text-white border-[1px] border-x-slate-400 rounded-md">                            
+                                        <option value="">English</option>
+                                        <option value="">Hindi</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>    
+                </div>          
+           </div>
+            
+        </section>
+    
+</body>
+</html>

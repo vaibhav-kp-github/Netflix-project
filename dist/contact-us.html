@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <link rel="shortcut icon" href="./../assets/images/title-icon-netflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />    
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        #card-wrapper::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class=" bg-[#0000008a]  w-screen  h-screen hidden items-center justify-center fixed z-50"  id="cookie-preference">
+        <div class="max-w-[730px] w-[730px] m-auto h-screen 2xl:h-[610px] bg-white rounded-sm flex flex-col justify-between overflow-hidden ">
+            <div class=" flex flex-col">
+                <div class="h-[80px] flex justify-between items-center px-8 py-2 pb-5 border-b-[1px] border-b-[#ddd]">
+                    <img class=" pl-6" width="100" src="./../assets/images/netflix-logos-idcIWizlPG.png" alt="" >
+                    <p class="text-2xl text-[#282828] font-semibold  truncate ">Privacy Preference Center</p>
+                    <button class="text-xl" onclick="hideshow7()"><i class="fa-solid fa-multiply"></i></button>
+                </div>
+                <div class="max-h-[400px] flex">
+                    <div class=" w-1/3 overflow-scroll " id="card-wrapper">
+                            <ul class="flex flex-col ">
+                                <li class="text-[15px] text-[#313131] bg-[#f9f5f5] active:bg-white border-y-[1px] active:border-y-black border-b-[1px] border-b-[#ddd] py-3 font-bold border-l-[10px] border-l-transparent active:border-l-[#e50914] px-2" onclick="hideshow8()">General Description</li>
+                                <li class="text-[15px] text-[#313131] bg-[#f9f5f5] active:bg-white border-y-[1px] active:border-y-black border-b-[1px] border-b-[#ddd] py-3 font-bold border-l-[10px] border-l-transparent active:border-l-[#e50914] px-2" onclick="hideshow9()" >Essencial Cookies</li>
+                                <li class="text-[15px] text-[#313131] bg-[#f9f5f5] active:bg-white border-y-[1px] active:border-y-black border-b-[1px] border-b-[#ddd] py-3 font-bold border-l-[10px] border-l-transparent active:border-l-[#e50914] px-2" onclick="hideshow10()">First Party Performance and Functionality Cookies</li>
+                                <li class="text-[15px] text-[#313131] bg-[#f9f5f5] active:bg-white border-y-[1px] active:border-y-black border-b-[1px] border-b-[#ddd] py-3 font-bold border-l-[10px] border-l-transparent active:border-l-[#e50914] px-2" onclick="hideshow11()">Third Party Performance and Functionality Cookies</li>
+                                <li class="text-[15px] text-[#313131] bg-[#f9f5f5] active:bg-white border-y-[1px] active:border-y-black border-b-[1px] border-b-[#ddd] py-3 font-bold border-l-[10px] border-l-transparent active:border-l-[#e50914] px-2" onclick="hideshow12()">Advertising Cookies</li>
+                            </ul>
+                    </div>
+                    <div class="w-2/3 flex flex-col overflow-scroll" id="card-wrapper">
+                            <div class="flex flex-col gap-5 px-6 pt-5" id="General Description">
+                                <h1 class="text-sm font-bold">General Description</h1>
+                                <p class="text-[13px]  ">This cookie tool will help you understand who is using cookies to collect information from your device, for what purposes they use the information, and how you can control the use of cookies for non-essential activities.</p>
+                                <p class="text-[13px]  ">Netflix supports the Self-Regulatory Principles for Online Behavioral Advertising of the Digital Advertising Alliance (DAA), the Digital Advertising Alliance of Canada (DAAC), and the European Interactive Digital Advertising Alliance (EDAA).</p>
+                                <p class="text-[13px]  ">If you opt out of advertising cookies, you may still see Netflix ads on other sites, but those ads will not be customized by us or our service providers and we will continue to customize your experience on our website via our use of cookies you have not refused.</p>
+                                <p class="text-[13px]  ">Alternatively, privacy settings in most browsers will allow you to prevent your browser from accepting new cookies, have it notify you when you receive a new cookie, or disable cookies altogether. If your browser is set to not accept any cookies, you will not receive Interest-Based Advertising, but your use of the Netflix service may be impaired or unavailable. In addition, if you use our cookie tool to opt-out of certain cookies, your opt-out preferences will be remembered by placing a cookie on your device. It is therefore important that your browser is configured to accept cookies for your preferences to take effect. If you delete or clear your cookies, or if you change which web browser you are using, you will need to set your cookie preferences again.</p>
+                                <p class="text-[13px]  ">For more information on our use of cookies, please visit the Cookies and Internet Advertising section of our Privacy Statement.
+
+                                </p>
+                            </div>
+                            <div class="hidden flex-col gap-5 px-6 pt-5" id="Essencial Cookies">
+                                <h1 class="text-sm font-bold">Essential Cookies</h1>
+                                <p class="text-[13px]">These cookies are strictly necessary to provide our website or online service. For example, we and our Service Providers may use these cookies to authenticate and identify visitors when they use our websites and applications so we can provide our service to them. They also help us to enforce our Terms of Use, prevent fraud and maintain the security of our services.</p>
+                                <p class="text-[13px]">Lifespan: Most cookies are session cookies (which are only active until you close your browser) or are cookies which are only active for one day. Some cookies are active for a longer time, ranging from 3 to 12 months. The cookies used to prevent fraud and maintain the security or our services are active for a maximum period of 24 months.</p>
+                            </div>
+
+                            <div class="hidden flex-col gap-5 px-6 pt-5" id="First Party Performance and Functionality Cookies">
+                                <h1 class="text-sm font-bold">First Party Performance and Functionality Cookies</h1>
+                                <p class="text-[13px]">These cookies help us to customize and enhance your online experience with Netflix. For example, they help us to remember your preferences and prevent you from needing to re-enter information you previously provided (for example, during member sign up). We also use these cookies to collect information (such as popular pages, conversion rates, viewing patterns, click-through and other information) about our visitors' use of the Netflix service so that we can enhance and customize our website and service and conduct market research. Deletion of these types of cookies may result in limited functionality of our service.</p>
+                                <p class="text-[13px]">Lifespan: Most cookies are only active for one day. Some cookies are active for a longer time, ranging from 3 to 12 months.</p>
+                            </div>
+                            <div class="hidden flex-col gap-5 px-6 pt-5" id="Third Party Performance and Functionality Cookies">
+                                <h1 class="text-sm font-bold">Third Party Performance and Functionality Cookies</h1>
+                                <p class="text-[13px]">These cookies, set by third parties, help us to customize and enhance your online experience with Netflix. The cookies in this category are only set on Tudum (our official fandom site). We use these cookies to provide you experiences hosted by third parties, like displaying social media content. For further information on how these third parties use such cookies, please see the privacy information provided by the third party on their website. Deletion of these types of cookies may result in limited functionality of our service.</p>
+                                <p class="text-[13px] text-blue-600">Cookies Details</p>
+                            </div>
+                            <div class="hidden flex-col gap-5 px-6 pt-5" id="Advertising Cookies">
+                                <h1 class="text-sm font-bold">Advertising Cookies</h1>
+                                <p class="text-[13px]">These cookies use information about your use of this and other websites and apps, your response to ads and emails, and to deliver ads that are more relevant to you and for analytics and optimization purposes. These types of ads are called "interest-based advertising" and will be shown to you outside the Netflix domain. Netflix uses contractual and technical measures designed to prevent advertising partners from accessing information regarding specific title selections you make, URLs you land on, or shows you have watched on our service. We do not share information about title selections or your shows you have watched on our service. The advertising cookies associated with our service belong to our advertising partners as listed under cookie details. Please choose your settings for advertising cookies below. If you want to opt out of the advertising cookies across all websites, go here.</p>
+                                <p class="text-[13px] text-blue-600">Cookies Details</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+            <div class="flex flex-col gap-3 ">
+                <div class="w-fit px-4">
+                    <button class="w-fit bg-[#e50914] hover:opacity-60 rounded-sm text-white px-10 py-3  text-sm font-bold">
+                    Save settings
+                    </button>
+                </div>
+                <div class="flex justify-end bg-[#f9f5f5] p-2">  
+                    <img src="https://cdn.cookielaw.org/logos/static/powered_by_logo.svg" alt="" class="">
+                </div>
+            
+            </div>
+            
+             
+        </div>
+    </div>
+
+    <div class="w-[100%]">
+        <header class="bg-black max-w-[100vw] flex  justify-between py-5 px-5 xl:px-[400px] ">
+            <div class="flex items-center gap-2 flex-wrap">
+                <img class="w-0 sm:w-[88px]" src="./../assets/images/netflix-logos-idcIWizlPG.png" alt="">
+                <img class="w-[15px]  sm:hidden " src="./../assets/images/title-icon-netflix.png" alt="">
+                <hr class="bg-white  sm:rotate-90 sm:w-6">
+                <h1 class="text-white text-nowrap"><a href="./help-center.html">Help Center</a></h1>
+            </div>
+            
+            <div class="flex gap-3 items-center relative "> 
+                <button class="bg-black border-[1px] border-gray-500 hover:border-white hover:opacity-[.9] p-[4px_15px] text-white rounded-md text-nowrap"><a href="">Join Netflix</a></button>
+                <button class="bg-[#cf0606] hover:opacity-[.9] p-[4px_15px] text-white rounded-md text-nowrap"><a href="./sign-in.html">Sign In</a></button>
+            </div>
+        </header>
+
+        <section class="w-[100%]">
+            <div class=" py-5 px-5 xl:px-[400px] flex flex-col gap-6 pb-10">
+                <h1 class="text-[#000000ee] text-[35px] sm:text-[40px] font-bold">Contact us</h1>
+                
+                <form action="" class="flex flex-col gap-1">
+                    <label for="" class="text-[#000000ee] text-[19px] font-semibold">Tell us more and we'll find the best solution for you</label>
+                    <input class="border border-gray-400 m-1 rounded-md p-2" type="text" name="" id="" placeholder="Describe your issue">
+                </form>
+
+                <div class="flex flex-col ">
+                    <h1 class="border-b-[2px] border-l-zinc-300 text-[#000000ee] text-lg font-bold pb-3">Quick Links</h1>
+
+                    <div class="border-b-[2px] border-zinc-300  flex items-center gap-3 p-3 ">
+                        <svg  width="16" height="16" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M12 20a8 8 0 110-16 8 8 0 010 16zM2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm8.773-4.91l.409 6.546h1.636l.41-6.545h-2.455zM12 14.865a1.227 1.227 0 110 2.454 1.227 1.227 0 010-2.454z" clip-rule="evenodd"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Content Grievances in India</a>
+                    </div>
+
+                    <div class="border-b-[2px] border-l-zinc-300  flex items-center gap-3 p-3 ">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M17 10V7A5 5 0 007 7v3H5v12h14V10zM9 7a3 3 0 016 0v3H9zm8 13H7v-8h10z"></path>
+                            <path d="M11 14h2v4h-2z"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Reset password</a>
+                    </div>
+
+                    <div class="border-b-[2px] border-l-zinc-300  flex items-center gap-3 p-3 ">
+                        <svg width="16" height="16" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.75 2C0.335786 2 0 2.33579 0 2.75V12.25C0 13.2165 0.783501 14 1.75 14H14.25C15.2165 14 16 13.2165 16 12.25V2.75C16 2.33579 15.6642 2 15.25 2H0.75ZM8 8.00978L2.76865 3.5H13.2313L8 8.00978ZM8.4897 9.56806L14.5 4.38677V12.25C14.5 12.3881 14.3881 12.5 14.25 12.5H1.75C1.61193 12.5 1.5 12.3881 1.5 12.25V4.38677L7.5103 9.56806L8 9.99022L8.4897 9.56806Z" fill="black"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Update email</a>
+                    </div>
+
+                    <div class="border-b-[2px] border-l-zinc-300  flex items-center gap-3 p-3 ">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"></path>
+                            <path d="M11.89 14.72a1.47 1.47 0 101 .43 1.39 1.39 0 00-1-.43zM14.09 7a4.58 4.58 0 00-1.91-.38 4.6 4.6 0 00-2 .42 3.52 3.52 0 00-2 2.73h2.31A1.21 1.21 0 0111 9a1.81 1.81 0 011-.25 1.69 1.69 0 011 .28.82.82 0 01.38.67 1 1 0 01-.24.62 4.36 4.36 0 01-1 .73A3.27 3.27 0 0011 12.16a2.94 2.94 0 00-.31 1.43v.31h2.27v-.19a1.25 1.25 0 01.22-.68 2.83 2.83 0 01.92-.75 4.36 4.36 0 001.35-1.14 2.31 2.31 0 00.46-1.45 2.83 2.83 0 00-.47-1.62A3.19 3.19 0 0014.09 7z"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Get help signing in</a>
+                    </div>
+                    
+                    <div class="border-b-[2px] border-l-zinc-300  flex items-center gap-3 p-3 ">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zM4 6h16v2H4zm0 12v-8h16v8z"></path>
+                            <path d="M15 14h3v2h-3z"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Update payment method</a>
+                    </div>
+
+                    <div class=" flex items-center gap-3 p-3 ">
+                        <svg width="16" height="16" viewBox="0 0 24 24">
+                            <path d="M20 3.5v1.197L4 8.254V7.5H2v8h2v-.754l1 .223V18.5c0 .459.313.858.757.971l4 1a1 1 0 001.042-.371l2.471-3.293L20 18.301V19.5h2v-16h-2zM9.598 18.369L7 17.719v-2.307l4.127.918-1.529 2.039zM4 12.697v-2.394l16-3.557v9.508L4 12.697z"></path>
+                        </svg>
+                        <a class="underline text-black font-bold hover:text-gray-600" href="">Request TV shows or movies</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="w-[100%] bg-gradient-to-bl from-red-900 from-98% to-black to-40%">
+            <div class="flex flex-col gap-10 pb-12 py-7  px-5 xl:px-[400px]">
+                <select class="max-w-fit bg-black text-lg font-bold text-[#757575] border border-[#757575] rounded-sm px-4 py-3  hover:bg-[#757575] hover:text-black" name="" id="" >
+                    <option value="id">Bahasa Indonesia</option>                    
+                    <option value="cs">Čeština</option>                    
+                    <option value="da">Dansk</option>                    
+                    <option value="de">Deutsch</option>                    
+                    <option value="en" selected="selected">English</option>                   
+                    <option value="es">Español</option>
+                    <option value="fil">Filipino</option>                    
+                    <option value="fr">Français</option>                    
+                    <option value="hr">Hrvatski</option>                    
+                    <option value="it">Italiano</option>                    
+                    <option value="hu">Magyar</option>                    
+                    <option value="ms">Melayu</option>                    
+                    <option value="nl">Nederlands</option>                    
+                    <option value="nb">Norsk Bokmål</option>                    
+                    <option value="pl">Polski</option>                    
+                    <option value="pt">Português</option>                    
+                    <option value="ro">Română</option>                    
+                    <option value="fi">Suomi</option>                    
+                    <option value="sv">Svenska</option>                    
+                    <option value="vi">Tiếng Việt</option>                    
+                    <option value="tr">Türkçe</option>                    
+                    <option value="el">Ελληνικά</option>                    
+                    <option value="ru">Русский</option>                    
+                    <option value="uk">Українська</option>                    
+                    <option value="he">עברית</option>                    
+                    <option value="ar">العربية</option>                    
+                    <option value="hi">हिन्दी</option>                    
+                    <option value="th">ไทย</option>                    
+                    <option value="zh-cn">中文</option>                    
+                    <option value="ja">日本語</option>                    
+                    <option value="ko">한국어</option>                    
+                </select>
+                <div class="flex flex-col gap-4">
+                    <div class="hover:underline max-w-fit text-gray-400  "><a href="./terms-of use.html">Terms of Use</a></div>
+                    <div class="hover:underline max-w-fit text-gray-400 "><a href="./privacy.html">Privacy</a></div>
+                    <div class="hover:underline max-w-fit text-gray-400 "><p onclick="hideshow7()">Cookie Preferences</p></div>
+                    <div class="hover:underline max-w-fit text-gray-400 "><a href="./corporate-information.html">Corporate Information</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- -----------------------------cookie preference functions section start--------------------------------- -->
+    <script type="text/javascript">
+    function hideshow7() {
+        if (document.getElementById("cookie-preference").style.display == "flex") {
+            document.getElementById("cookie-preference").style.display = "none";
+        }else{document.getElementById("cookie-preference").style.display = "flex";
+        }
+    }
+       
+    </script>
+
+    <!-- -----------------------------cookie preference functions section end--------------------------------- -->
+
+    <!-- -----------------------------Privacy Preference Center functions section start--------------------------------- -->
+    <script type="text/javascript">
+    function hideshow8() {
+        if (document.getElementById("General Description").style.display == "flex") {
+            document.getElementById("General Description").style.display = "none";
+        }else{document.getElementById("General Description").style.display = "flex";
+        }
+        
+    }
+
+    function hideshow9() {
+        if (document.getElementById("Essencial Cookies").style.display == "flex") {
+            document.getElementById("Essencial Cookies").style.display = "none";
+        }else{document.getElementById("Essencial Cookies").style.display = "flex";
+        } 
+                
+    }
+
+    function hideshow10() {
+        if (document.getElementById("First Party Performance and Functionality Cookies").style.display == "flex") {
+            document.getElementById("First Party Performance and Functionality Cookies").style.display = "none";
+        }else{document.getElementById("First Party Performance and Functionality Cookies").style.display = "flex";
+        }
+                 
+    }
+
+    function hideshow11() {
+        if (document.getElementById("Third Party Performance and Functionality Cookies").style.display == "flex") {
+            document.getElementById("Third Party Performance and Functionality Cookies").style.display = "none";
+        }else{document.getElementById("Third Party Performance and Functionality Cookies").style.display = "flex";
+        }
+                 
+    }
+
+    function hideshow12() {
+        if (document.getElementById("Advertising Cookies").style.display == "flex") {
+            document.getElementById("Advertising Cookies").style.display = "none";
+        }else{document.getElementById("Advertising Cookies").style.display = "flex";
+        }
+                 
+    }
+    </script>
+
+    <!-- -----------------------------Privacy Preference Center functions section end--------------------------------- -->
+</body>
+</html>
